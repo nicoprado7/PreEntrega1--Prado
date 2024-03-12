@@ -1,0 +1,78 @@
+body {
+  background-image: url("./assets/img/fondoblack.jpg");
+  background-position: cover;
+}
+
+/* --------------------------------- CARRITO -------------------------------- */
+#cart-widget > span {
+  color: rgba(255, 0, 43, 0.719);
+  padding-left: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.carrito:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  color: black;
+}
+
+.navbar {
+  padding: 0;
+}
+
+/* ------------------------ LOGO DEL NAVBAR BOOTSTRAP ----------------------- */
+.logo {
+  cursor: pointer;
+  /* Animacion */
+  animation: rotar 3s ease-in-out infinite;
+}
+@keyframes rotar {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatey(360deg);
+  }
+}
+
+
+
+
+/* -------------------------------- GREETING -------------------------------- */
+h1 {
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 10px;
+  text-shadow: 2px 2px 4px black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+h1:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+/* --------------------------------- BOTONES -------------------------------- */
+.nav-link {
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border: 1px solid transparent;
+  padding: 0.1rem ;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(128, 0, 0);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-left: 10px;
+
+}
+  
+.nav-link:hover {
+  background-color: white;
+  transform: scale(1.1);
+  color: black
+}
