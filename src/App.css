@@ -77,7 +77,7 @@ h1:hover {
   color: black
 }
 
-
+/* ---------------------------------- TEXTO --------------------------------- */
 p {
   color: rgb(255, 255, 255);
 }
@@ -85,15 +85,12 @@ p {
 .textoPagina{
   text-align: center;
 }
-.cargando{
-  color: white;
-}
 
+/* ---------------------------------- CARDS ---------------------------------- */
 .card{
   background-color: rgb(102, 102, 102);
   color: black;
 }
-
 
 .card-title {
   color: rgb(0, 0, 0);
@@ -102,6 +99,7 @@ p {
 .card-text {
   color: rgb(255, 255, 255);
 }
+
 .precio{
   color: rgb(99, 255, 99);
 }
@@ -115,15 +113,39 @@ p {
   color: white;
 } 
 
+/* ---------------------------- DETALLE --------------------------- */
 .imagen:hover {
   transform: scale(1.1);
   transition: all 0.5s;
 } 
 
-.detalle{
+.detalle {
+  padding: 10px;
+  border: 2px solid rgb(110, 0, 0);
+  color: white;
+  background-color: rgba(128, 128, 128, 0.432);
+  border-radius: 15px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+
 }
 
+.detalle2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 100%; 
+  letter-spacing: 5px;
+}
+
+.detalle3{
+    text-decoration: underline; /* Subrayar el texto */
+}
 
 /* --------------------------------- LOADING -------------------------------- */
 @keyframes spin {
@@ -160,7 +182,7 @@ p {
   height: 100px; /* Ajusta el alto de la imagen según tus necesidades */
 }
 
-
+/* -------------------------------- CONTADOR -------------------------------- */
 .contador{
   margin-top: 45px;
   margin-bottom: 20px;
@@ -170,26 +192,3 @@ p {
   padding: 35px;
 }
 
-.detalle {
-  padding: 10px;
-  border: 2px solid rgb(110, 0, 0);
-  color: white;
-  background-color: rgba(128, 128, 128, 0.432);
-  border-radius: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-
-}
-
-.detalle2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
-  height: 100%; 
-  letter-spacing: 5px;
-}

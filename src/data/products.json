@@ -1,12 +1,12 @@
 [
 	{
-		"name": "Remera Portrait",
+		"name": "Remera Tag Patch",
 		"id": 1,
 		"category": "Hombre",
 		"price": "$35.000",
-		"detail": "Camiseta negra con imágenes de Danny Hastings Eminem en la parte delantera.",
-		"detalle":"La cápsula del 25 aniversario de slim shady lp es exclusiva de la tienda de eminem. La colección incluye artículos limitados con fotografías de danny hastings, colaborador original de la obra de arte del álbum. Camiseta negra con imágenes de danny hastings eminem en la parte delantera del pecho.",
-		"img": "https://shop.eminem.com/cdn/shop/products/PORTRAIT_Tee_Front_1024x1024.png?v=1709066340",
+		"detail": "Camiseta blanca con imágenes de eminem y gráfico de etiqueta con el nombre de shady.",
+		"detalle":"La cápsula del 25 aniversario de slim shady lp es exclusiva de la tienda oficial de eminem. La colección incluye artículos limitados con fotografías de danny hastings, colaborador original de la obra de arte del álbum.",
+		"img": "https://shop.eminem.com/cdn/shop/products/NameTag_Tee_Front_1024x1024.png?v=1709066288",
 		"stock": "Stock disponible : 50"
 	},
 	{

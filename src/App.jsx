@@ -16,12 +16,12 @@ function App() {
         <Routes>
           <Route path="/" element={
             <>
-              <header class="d-flex justify-content-between p-4">
+              <header class="d-flex justify-content-between p-3">
                 <p class="textoPagina animate__animated animate__bounceInLeft">Aquí encontrarás todo tipo de merchandising de Eminem, desde camisetas y buzos,
-                hasta gorros y conjuntos originales que te dejarán alucinando. En nuestra tienda encontrarás todo lo que
+                hasta gorros y accesorios originales que te dejarán alucinando. En nuestra tienda encontrarás todo lo que
                 siempre has querido de tu artista favorito. Y si lo que buscas es hacer un regalo para un fan de Eminem,
                 te vamos a dar un montón de ideas. Date el gusto de obtener la vestimenta que te representa, en su
-                variedad de colores y diseños. El problema será elegir cuál te gusta más!</p>
+                variedad de colores y diseños. <br></br> ¡El problema será elegir cuál te gusta más!</p>
               </header>
               <ItemListContainer />
              

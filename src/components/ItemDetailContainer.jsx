@@ -53,7 +53,7 @@ return (
   <div className="image-container" style={{ display: 'flex', justifyContent: 'center' }}>
     <img width={700} src={product.img} alt="imagen" className="imagen" />
 <div className="detalle">
-  <h2 className="">Detalle del producto:</h2>
+  <h2 className="detalle3">Detalle del producto:</h2>
   <div className="detalle2">{product.detalle}</div>
 </div>
 
