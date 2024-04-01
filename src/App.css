@@ -76,3 +76,86 @@ h1:hover {
   transform: scale(1.1);
   color: black
 }
+
+
+p {
+  color: rgb(255, 255, 255);
+}
+
+.textoPagina{
+  text-align: center;
+}
+.cargando{
+  color: white;
+}
+
+.card{
+  background-color: rgb(102, 102, 102);
+  color: black;
+}
+
+
+.card-title {
+  color: rgb(0, 0, 0);
+}
+
+.card-text {
+  color: rgb(255, 255, 255);
+}
+.precio{
+  color: rgb(99, 255, 99);
+}
+
+.w-100{
+  background-color: rgb(0, 0, 0);
+}
+
+.w-100:hover {
+  background-color: rgb(122, 0, 0);
+  color: white;
+} 
+
+.imagen {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.detalle{
+  text-align: center;
+}
+
+
+/* --------------------------------- LOADING -------------------------------- */
+@keyframes spin {
+  0% { transform: scale(1) rotate(0deg); }
+  50% { transform: scale(1.2) rotate(180deg);}
+  100% { transform: scale(1) rotate(360deg);  }
+}
+
+#loadingIndicator {
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 200px; /* Ajusta el ancho del indicador de carga según tus necesidades */
+  height: 200px; /* Ajusta el alto del indicador de carga según tus necesidades */
+  border: 20px solid rgba(0, 0, 0, 0.5); /* Ajusta el grosor y la opacidad del borde */
+  border-radius: 50%; /* Ajusta el radio de borde para que sea un círculo */
+  background-color: rgba(255, 255, 255, 0.9); /* Ajusta el color de fondo y su opacidad */
+  animation: spin 2s linear infinite; /* Cambia la duración de la animación a 5 segundos */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+
+.loadingMessage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #198754; /* Color del texto */
+}
+.loadingMessage img {
+  width: 100px; /* Ajusta el ancho de la imagen según tus necesidades */
+  height: 100px; /* Ajusta el alto de la imagen según tus necesidades */
+}

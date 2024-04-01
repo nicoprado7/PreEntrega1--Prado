@@ -1,0 +1,87 @@
+[
+	{
+		"name": "Remera Portrait",
+		"id": 1,
+		"category": "Hombre",
+		"price": "$35.000",
+		"detail": "Camiseta negra con imágenes de Danny Hastings Eminem en la parte delantera.",
+		"detalle":"La cápsula del 25 aniversario de slim shady lp es exclusiva de la tienda de eminem. La colección incluye artículos limitados con fotografías de danny hastings, colaborador original de la obra de arte del álbum. Camiseta negra con imágenes de danny hastings eminem en la parte delantera del pecho.",
+		"img": "https://shop.eminem.com/cdn/shop/products/PORTRAIT_Tee_Front_1024x1024.png?v=1709066340",
+		"stock": "Stock disponible : 50"
+	},
+	{
+		"name": "Buzo MTBMB",
+		"id": 2,
+		"category": "Hombre",
+		"price": "$50.000",
+		"detail": "buzo con capucha, estampado rojo y blanco en el pecho, estampado de cuchillo blanco en la manga.",
+		"detalle": "¡Consigue el buzo oficial de Eminem! Diseño exclusivo, calidad premium y ajuste perfecto para lucir con estilo en cualquier ocasión. ¡Haz tu pedido ahora y lleva el legado de Eminem contigo!",
+		"img": "https://shop.eminem.com/cdn/shop/products/EM-MTBMBmerch-1BF-R7_1024x1024.png?v=1579235806",
+		"stock": "Stock disponible : 34"
+	},
+	{
+		"name": "Remera Slim Shady",
+		"id": 3,
+		"category": "Mujer",
+		"price": "$30.000",
+		"detail": "Delicada tela, firma delgada y sombreada en rojo impresa en una camiseta corta negra.",
+		"detalle": "¡Luce el estilo de Eminem con nuestra remera exclusiva para mujer! Con un diseño inspirado y una calidad superior, esta remera te brinda el ajuste perfecto para destacar en cualquier situación. ¡No te pierdas la oportunidad de llevar contigo el legado de Eminem! Haz tu pedido ahora mismo.",
+		"img": "https://shop.eminem.com/cdn/shop/products/14---FRONT_1024x1024.png?v=1709066306",
+		"stock": "Stock disponible : 29"
+	},
+
+	{
+		"name": "Hoodie",
+		"id": 4,
+		"category": "Mujer",
+		"price": "$45.000",
+		"detail": "E icónica al revés. Diseño blanco impreso en hoddie con capucha carbón.",
+		"detalle": "¡Destaca con nuestro buzo de mujer inspirado en Eminem! Con un diseño único y una calidad premium, este buzo ofrece estilo y comodidad incomparables. ¡No te pierdas la oportunidad de llevar contigo el legado de Eminem! Haz tu pedido ahora y haz una declaración de moda con actitud.",
+		"img": "https://shop.eminem.com/cdn/shop/products/EM-GenStock_W_TheWayIAm-CroppedHoodie_1024x1024.png?v=1566245558",
+		"stock": "Stock disponible : 31"
+	},
+	{
+		"name": "Gorro Mom´s",
+		"id": 5,
+		"category": "Accesorios",
+		"price": "$25.000",
+		"detail": "Gorro carhartt naranja con  logotipos bordados de 8 mile y mom's spaghetti en los laterales.",
+		"detalle": "¡Completa tu look con nuestro gorro de lana inspirado en Eminem! Con un diseño exclusivo y una calidad excepcional, este gorro te mantendrá abrigada y con estilo en los días más fríos. ¡No te pierdas la oportunidad de llevar contigo el legado de Eminem! Haz tu pedido ahora y dale un toque único a tu outfit de invierno.",
+		"img": "https://shop.eminem.com/cdn/shop/products/orangebeanie_1_1024x1024.png?v=1669075385",
+		"stock": "Stock disponible : 44"
+	},
+	{
+		"name": "Gorra Tag Patch",
+		"id": 6,
+		"category": "Accesorios",
+		"price": "$20.000",
+		"detail": "El icónico - Hi, my name is! - etiqueta con el nombre como un parche cosido en la parte delantera.",
+		"detalle": "¡Dale un toque de estilo único a tu outfit con nuestra gorra exclusiva de Eminem! Con un diseño inspirado y una calidad premium, esta gorra te ofrece comodidad y un look urbano auténtico. ¡No te pierdas la oportunidad de llevar contigo el legado de Eminem! Haz tu pedido ahora y marca la diferencia con tu estilo.",
+		"img": "https://shop.eminem.com/cdn/shop/products/Name_Tag_Patch_Dad_Hat_Flat_Lay_1024x1024.png?v=1554773485",
+		"stock": "Stock disponible : 55"
+	},
+	{
+		"name": "Bolso Kamikaze",
+		"id": 7,
+		"category": "Accesorios",
+		"price": "$85.000",
+		"detail": "Bolsa para casco de color verde oliva con una variedad de parches kamikaze en el frente.",
+		"detalle":"La bolsa para casco kamikaze está fabricada con material de poliéster duradero y un interior acolchado.",
+		"img": "https://shop.eminem.com/cdn/shop/files/Kamikaze-Helmet-Bag-UPDATED_1024x1024.png?v=1692982829",
+		"stock": "Stock disponible : 16"
+	},
+	{
+		"name": "Remera Arresto",
+		"id": 8,
+		"category": "Hombre",
+		"price": "$35.000",
+		"detail": "Remera con Eminem impreso arriba. Diseño blanco en una camiseta negra.",
+		"detalle":"¡Lleva contigo un momento icónico de la historia de la música con esta remera negra de Eminem Arresto! Capturando el inolvidable momento en que el talentoso rapero fue arrestado, esta remera es una declaración audaz de estilo y personalidad.",
+		"img": "https://shop.eminem.com/cdn/shop/products/EM-GenStock_Arrest-Shirt_1024x1024.png?v=1566245862",
+		"stock": "Stock disponible : 45"
+	}
+	
+	
+
+	
+]
