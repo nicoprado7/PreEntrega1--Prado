@@ -6,7 +6,7 @@ import data from "../data/products.json";
 
 export const ItemDetailContainer = () => {
   const [product, setProduct]  = useState (null);
-  const [counter, setCounter] = useState(0);
+  const [counter, setCounter] = useState(1);
   const loadingIndicator = document.getElementById('loadingIndicator');
 
   const { id } = useParams();
@@ -48,18 +48,32 @@ setTimeout(() => {
 return ( 
   
 <Container className='mt-4'>
-<h1>Detalle del producto:</h1>
+{/* <h1>Detalle del producto:</h1> */}
   <h1>{product.name}</h1>
-  <img width={700}src={product.img} alt ="imagen" className="imagen"/>
-  <p className="detalle">{product.detalle}</p>
-{/* Contador con estilos */}
-<div className="contador">
-        <p>Contador: <span className="contador-valor">{counter}</span></p>
-        <button onClick={incrementCounter} className="btn btn-primary">Incrementar</button>
-        <button onClick={decrementCounter} className="btn btn-secondary">Decrementar</button>
-        <button onClick={addToCart} className="btn btn-success">Agregar al carrito</button>
-      </div>
+  <div className="image-container" style={{ display: 'flex', justifyContent: 'center' }}>
+    <img width={700} src={product.img} alt="imagen" className="imagen" />
+<div className="detalle">
+  <h2 className="">Detalle del producto:</h2>
+  <div className="detalle2">{product.detalle}</div>
+</div>
+
+</div>
+
+  {/* <p className="detalle">{product.detalle}</p> */}
+
+  <div className="contador" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+    <div>
+        <button onClick={decrementCounter} className="btn btn-danger">-</button>
+        <span className="contador-valor">{counter}</span>
+        <button onClick={incrementCounter} className="btn btn-success">+</button>
+    </div>
+    <button onClick={addToCart} className="btn btn-warning">Agregar al carrito</button>
+</div>
+
     </Container>)
 
  
 };
+
+
+

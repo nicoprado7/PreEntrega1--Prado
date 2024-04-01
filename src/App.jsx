@@ -6,6 +6,7 @@ import { ItemDetailContainer } from './components/ItemDetailContainer';
 import { NavBar } from "./components/Navbar";
 import { CartWidget } from "./components/CartWidget";
 
+
 function App() {
   return (
     <>
@@ -23,6 +24,7 @@ function App() {
                 variedad de colores y diseños. El problema será elegir cuál te gusta más!</p>
               </header>
               <ItemListContainer />
+             
             </>
           } />
           <Route path="/category/:id" element={<ItemListContainer />} />
