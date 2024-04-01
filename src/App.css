@@ -41,19 +41,23 @@ body {
 
 /* -------------------------------- GREETING -------------------------------- */
 h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin-left: 100px;
   margin-right: 100px;
-  padding: 10px;
+  padding: 5px;
   text-shadow: 2px 2px 4px black;
   border-radius: 30px;
   text-align: center;
+  border: 2px solid #6e0000;
+  background-color: #6e0000;
+  
+  
 }
 
-h1:hover {
+/* h1:hover {
   transform: scale(1.1);
   transition: all 0.5s;
-}
+} */
 
 /* --------------------------------- BOTONES -------------------------------- */
 .nav-link {
@@ -131,6 +135,7 @@ p {
   align-items: center;
   margin-top: 150px;
   margin-bottom: 150px;
+  text-shadow: 2px 2px 4px black;
 
 }
 
@@ -141,11 +146,13 @@ p {
   align-items: center; 
   height: 100%; 
   letter-spacing: 5px;
+  text-shadow: 2px 2px 4px black;
 }
 
 .detalle3{
     text-decoration: underline; /* Subrayar el texto */
 }
+
 
 /* --------------------------------- LOADING -------------------------------- */
 @keyframes spin {
