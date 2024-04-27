@@ -1,0 +1,28 @@
+.check{
+    border: 1px solid #343a40;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgba(138, 0, 0, 0.562);
+    font-size: 30px;
+}
+
+.check1 {
+    border: 1px solid #343a40;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    background-color: rgba(138, 0, 0, 0.877);
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+  }
+  
+  .formulario {
+    font-size: 1.5em;
+  }
+
+  .form-control{
+    padding: 0.5em;
+    width: 300px
+  }
+  

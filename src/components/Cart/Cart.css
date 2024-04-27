@@ -1,0 +1,33 @@
+.detalle {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dddddd;
+    width: 100%;
+    margin-right: 300px;
+  }
+  .encabezado {
+    background-color: #8b0000;
+    font-weight: bold;
+    padding: 8px;
+    flex: 1;
+    text-align: center;
+  }
+  
+  .dato {
+    padding: 8px;
+    flex: 1;
+    text-align: center;
+  }
+
+  .iralinicio{
+    background-color: yellow;
+    margin-top: 40px;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .eminemShop1 {
+    display: flex;
+    justify-content: center;
+  }
+  

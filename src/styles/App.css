@@ -1,0 +1,44 @@
+/* --------------------------------- fOOTER --------------------------------- */
+.footer {
+  background-color: rgb(46, 46, 46);
+  padding: 0px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 60px;
+}
+.footer-row {
+  display: flex;
+}
+
+.footer-links {
+  width: 200%;
+  padding: 0 15px;
+  margin-top: 7px;
+}
+.footer-links ul li a {
+  font-size: 18px;
+  color: black;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.social-link a {
+  display: inline-block;
+  min-height: 1px;
+  width: 50px;
+  background-color: rgba(219, 0, 0, 0.562);
+  margin: 10 10px 10px 10;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 60%;
+  border-style: solid;
+  color: white;
+  margin-right: 10px;
+}
+.social-link a:hover {
+  background-color: rgb(190, 0, 0);
+  transform: scale(1.2);
+  transition: all 0.5s;
+  color: black;
+}

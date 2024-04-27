@@ -1,0 +1,16 @@
+.item {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #343a40;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: rgba(240, 240, 240, 0.295);
+}
+
+.item img {
+    width: 100%;
+}
+

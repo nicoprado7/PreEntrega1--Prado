@@ -1,0 +1,49 @@
+    /* ------------------------------- LOGO NAVBAR ------------------------------ */
+    .eminemLogo{
+      width: 50px;  
+      cursor: pointer;
+      /* Animacion */
+      animation: rotar 3s ease-in-out infinite;
+    }
+    @keyframes rotar {
+      from {
+        transform: rotatey(0deg);
+      }
+      to {
+        transform: rotatey(360deg);
+      }
+    }
+    
+    .eminemShop {
+      height: auto;
+      margin-right: 10px; /* Ajusta el margen entre la imagen y el texto según lo desees */
+    }
+
+    
+    .navbar a {
+      position: relative;
+      font-size: 18px;
+      color: #222222;
+      font-weight: 500;
+      margin-left: 40px;
+      text-decoration: none;
+    }
+
+    .navbar a::before{
+
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #ffffff;
+      transition: .3s;
+    }
+
+    .navbar a:hover::before{
+      width: 100%;
+
+    }
+
+  
