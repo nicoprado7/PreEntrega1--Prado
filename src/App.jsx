@@ -1,18 +1,12 @@
-// REACT...
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-// CONTEXT...
 import { CartContextProvider } from "./context/CartContext";
-
-// COMPONENTES... 
 import { NavBar } from "./components/NavBar/NavBar"
 import { Cart } from "./components/Cart/Cart";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer"
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
 import { CheckOut } from "./components/CheckOut/CheckOut"
-
 import "./styles/App.css"
-// -----------------------------
+
 
 const App = () => {
 
@@ -30,10 +24,7 @@ const App = () => {
               <Route path="/cart" element={<Cart />} />
               <Route path="/checkout" element={<CheckOut />} />
               <Route path="/item/:id" element={<ItemDetailContainer />} />
-
-              {/* PAGINA DE ERROR */}
               <Route path="*" element={<h1>Error 404</h1>} />
-
             </Routes>
           </main>
 
@@ -56,11 +47,8 @@ const App = () => {
   </div>
 </footer>
 
-
-
         </BrowserRouter>
       </CartContextProvider>
-
     </>
   )
 }

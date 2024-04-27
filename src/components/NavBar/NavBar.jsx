@@ -1,25 +1,14 @@
-// REACT
 import { Link } from "react-router-dom";
-
-// COMPONENTES...
 import { CartWidget } from '../CartWidget/CartWidget'
-
-// ESTILOS...
 import '../NavBar/NavBar.css'
-
-// Importa la imagen PNG
 import eminemLogo from '../assets/img/eminem logo 1.png';
 
-// ************************************************
 export const NavBar = () => {
   return (
-
     <header >
-
       <Link to="/" className="logo">
-      <img src={eminemLogo} alt="EMINEM SHOP" className="eminemLogo"/>      <Link to="/" className="eminemShop">EMINEM SHOP</Link>
+      <img src={eminemLogo} alt="EMINEM SHOP" className="eminemLogo"/><Link to="/" className="eminemShop">EMINEM SHOP</Link>
       </Link>
-
 
       <nav className="navbar">
         <Link to="/category/hombre" className="links">Hombre</Link>
@@ -29,9 +18,6 @@ export const NavBar = () => {
         <CartWidget />
 
       </nav>
-
     </header>
-
   )
 }
-// ************************************************

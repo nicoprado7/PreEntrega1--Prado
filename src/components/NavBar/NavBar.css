@@ -2,7 +2,6 @@
     .eminemLogo{
       width: 50px;  
       cursor: pointer;
-      /* Animacion */
       animation: rotar 3s ease-in-out infinite;
     }
     @keyframes rotar {
@@ -16,7 +15,7 @@
     
     .eminemShop {
       height: auto;
-      margin-right: 10px; /* Ajusta el margen entre la imagen y el texto según lo desees */
+      margin-right: 10px;
     }
 
     
@@ -43,7 +42,6 @@
 
     .navbar a:hover::before{
       width: 100%;
-
     }
 
   

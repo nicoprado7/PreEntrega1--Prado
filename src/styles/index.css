@@ -7,8 +7,6 @@ body{
   font-family: "Poppins", sans-serif;
   background-image: url("../components/assets/img/deoctrq-c62439d2-fa31-401e-b59c-189003b73192.jpg");
   background-position: center;
-/*   background-size: contain; */
-
 }
 
 
@@ -18,7 +16,6 @@ header{
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: #fff ; /* transparent // rgba(0,0,0,0.5)*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,8 +26,7 @@ header{
   color: white;
 }
 
-
-#root{  /* OBS va #root por REACT sino seria body, ver index.html */
+#root{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -50,13 +46,13 @@ padding: 30px;
 /* FOOTER */
 
 a {
-  text-decoration: none; /* Elimina el subrayado del enlace */
-  color: inherit; /* Hereda el color del texto del elemento padre */
-  cursor: pointer; /* Cambia el cursor al pasar por encima del enlace */
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 a:hover,
 a:focus {
-  text-decoration: none; /* Elimina el subrayado al pasar por encima o al enfocar el enlace */
+  text-decoration: none;
 }
 
