@@ -16,7 +16,7 @@ export const ItemDetail = ({ id, name, description, img, price, stock }) => {
         Swal.fire({
             icon: "success",
             title: "Se agregó el producto al carrito",
-            confirmButtonColor: "#4CAF50" // Cambia el color del botón OK a verde
+            confirmButtonColor: "#4CAF50"
         });
     }
     return (

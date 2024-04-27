@@ -1,14 +1,7 @@
-// REACT...
 import { useContext } from "react"
 import { Link } from "react-router-dom";
-
-// CONTEXT...
 import { CartContext } from "../../context/CartContext"
-
-//SWEETALERT...
 import Swal from "sweetalert2";
-
-// CSS
 import './Cart.css';
 
 
