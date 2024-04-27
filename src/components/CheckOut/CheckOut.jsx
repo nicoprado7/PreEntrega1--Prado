@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import { CartContext } from "../../context/CartContext";
 import { db } from "../../config/firebaseConfig";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-import './chekout.css';
+import './checkout.css';
 
 export const CheckOut = () => {
   const { cart, totalPrice, clearCart } = useContext(CartContext);
@@ -64,7 +64,7 @@ export const CheckOut = () => {
       const order = await addDoc(collection(db, "orders"), newOrder);
       setOrderId(order.id);
       clearCart();
-      setTimeout(() => setLoading(false), 3000); // Simular un proceso de carga de 2 segundos antes de mostrar el mensaje de agradecimiento
+      setTimeout(() => setLoading(false), 3000);
     } catch (error) {
       console.error("Error al procesar la orden:", error);
       Swal.fire({
@@ -72,7 +72,7 @@ export const CheckOut = () => {
         text: 'Hubo un error al procesar su orden. Por favor, inténtelo nuevamente más tarde.',
         confirmButtonColor: '#28a745',
       });
-      setLoading(false); // Asegurar que el loading se detenga en caso de error
+      setLoading(false);
     }
   };
 
@@ -94,7 +94,7 @@ export const CheckOut = () => {
       {loading && (
         <div className="text-center">
           <h2>Procesando compra...</h2>
-          <div className="spinner-border" role="status"></div> {/* Spinner de carga */}
+          <div className="spinner-border" role="status"></div>
         </div>
       )}
       {!loading && (

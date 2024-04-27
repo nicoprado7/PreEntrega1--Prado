@@ -47,10 +47,6 @@ text-align: center;
 padding: 30px;
 }
 
-
-
-
-/* ******************************* */
 /* FOOTER */
 
 a {
@@ -64,6 +60,3 @@ a:focus {
   text-decoration: none; /* Elimina el subrayado al pasar por encima o al enfocar el enlace */
 }
 
-
-
-/* ******************************* */

@@ -1,37 +1,24 @@
 import { useContext } from "react";
 import { ItemCount } from "../ItemCount/ItemCount";
-
-// CSS
 import './ItemDetail.css';
-
-// CONTEXT...
 import { CartContext } from "../../context/CartContext";
-
-//SWEETALERT...
 import Swal from "sweetalert2";
 
 export const ItemDetail = ({ id, name, description, img, price, stock }) => {
-
     const { addItem } = useContext(CartContext);
-
     const onAdd = (quantity) => {
-
         const item = {
             id,
             price,
             name,
         }
-
         addItem(item, quantity)
-
         Swal.fire({
             icon: "success",
             title: "Se agregó el producto al carrito",
             confirmButtonColor: "#4CAF50" // Cambia el color del botón OK a verde
         });
-        
     }
-
     return (
         <>
             <div className="custom-container">
@@ -47,6 +34,5 @@ export const ItemDetail = ({ id, name, description, img, price, stock }) => {
                 </div>
             </div>
         </>
-
     );
 };

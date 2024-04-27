@@ -9,7 +9,7 @@ import { NavBar } from "./components/NavBar/NavBar"
 import { Cart } from "./components/Cart/Cart";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer"
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
-import { CheckOut } from "./components/CheckOut/ChekOut"
+import { CheckOut } from "./components/CheckOut/CheckOut"
 
 import "./styles/App.css"
 // -----------------------------

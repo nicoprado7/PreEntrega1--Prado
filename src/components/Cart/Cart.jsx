@@ -1,5 +1,3 @@
-
-
 // REACT...
 import { useContext } from "react"
 import { Link } from "react-router-dom";
@@ -13,13 +11,11 @@ import Swal from "sweetalert2";
 // CSS
 import './Cart.css';
 
-// **************************************************
+
 export const Cart = () => {
 
-  // emplea el... useContext
   const { cart, clearCart, removeItem, totalPrice } = useContext(CartContext)
 
-  // SweetAlert - Delete
   const handleDeleteItem = (item) => {
 
     Swal.fire({
@@ -27,11 +23,11 @@ export const Cart = () => {
       title: `¿Estás seguro que deseas eliminar ${item.name} del carrito?`,
       showCancelButton: true,
       showConfirmButton: true,
-      confirmButtonColor: '#28a745', // Cambia el color del botón "Ok"
-      cancelButtonColor: '#dc3545', // Cambia el color del botón "Cancelar"
+      confirmButtonColor: '#28a745', 
+      cancelButtonColor: '#dc3545', 
       customClass: {
-        confirmButton: 'custom-swal-confirm-button', // Clase personalizada para el botón "Ok"
-        cancelButton: 'custom-swal-cancel-button', // Clase personalizada para el botón "Cancelar"
+        confirmButton: 'custom-swal-confirm-button',
+        cancelButton: 'custom-swal-cancel-button', 
       }
     }).then(resp => {
       if (resp.isConfirmed) {
@@ -46,13 +42,8 @@ export const Cart = () => {
     
   }
 
-  // ----------------------
   return (
     <>
-
-
-
-
       {totalPrice > 0 && (
         <>
           <div className="detalle">
@@ -65,11 +56,7 @@ export const Cart = () => {
         </>
       )}
 
-
-
-
-
-      {/* mapeamos los items en carrito... */}
+      {/* MAPEO DE ITEMS EN CARRITO */}
       {cart.map((item) => (
 
         <div class="detalle" key={item.id} >
@@ -85,16 +72,11 @@ export const Cart = () => {
         </div>
 
       ))}
-      {/* ---------------------------- */}
-
-
 
       {
-
         totalPrice > 0 ?
-          // Hay productos...
+          // Si hay productos
           <>
-
             <div class="detalle"  >
               <div class="dato"> </div>
               <div class="dato"> </div>
@@ -118,25 +100,16 @@ export const Cart = () => {
                 </button>
               </div>
             </div>
-
-
-
           </>
           :
-          // Sin productos...
+          // Si NO hay productos
           <>
           <h2>( Carrito Vacio )</h2>
           <Link to="/" className="eminemShop1">
             <button className="iralinicio">Ir al inicio</button>
           </Link>
-        </>
-          
+        </>   
       }
-
-
     </>
-
-
-
   )
 }

@@ -11,18 +11,18 @@
   }
   
   .action-button {
-    background-color: #ff4c4c; /* Color de fondo del botón */
-    color: #fff; /* Color del texto del botón */
-    border: none; /* Sin borde */
-    border-radius: 4px; /* Borde redondeado */
-    padding: 8px 12px; /* Espaciado interno */
-    font-size: 16px; /* Tamaño de la fuente */
-    margin: 0 5px; /* Margen entre botones */
-    cursor: pointer; /* Cursor al pasar por encima */
+    background-color: #ff4c4c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer; 
     width: 80px;
   }
   
   .action-button:hover {
-    background-color: #b30000cb; /* Color de fondo al pasar el cursor por encima */
+    background-color: #b30000cb;
   }
   
