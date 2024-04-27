@@ -6,6 +6,7 @@
 Este es mi proyecto final del curso de React JS de CODERHOUSE. 
 Opte por realizar una App de un Ecommmerce de ropa inspirada en el cantante Eminem.
 
+![](https://raw.githubusercontent.com/nicoprado7/ProyectoFinal--Prado/main/src/Ecommerce%20eminem%20REACT.png)
 
 ## Realización
 
