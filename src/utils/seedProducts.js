@@ -1,4 +1,4 @@
-
+/* 
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../config/firebaseConfig";
 
@@ -87,11 +87,11 @@ useEffect(() => {
   }, [category])
 */
 
-export const seedProducts = () => {
+/* export const seedProducts = () => {
 
     products.forEach(product => {
         // Agregamos el producto a nuestra base de datos
         addDoc(collection(db, "products"), product)
     })
 
-}
+} */
