@@ -37,3 +37,6 @@ cd "Carpeta del proyecto"
 - npm install firebase
 - npm run dev
 ```
+
+# Video del proyecto
+![](https://raw.githubusercontent.com/nicoprado7/ProyectoFinal--Prado/main/src/EMINEM%20SHOP%20-%20Google%20Chrome%202024-04-27%2019-55-01.gif)
