@@ -7,7 +7,7 @@ export const NavBar = () => {
   return (
     <header >
       <Link to="/" className="logo">
-      <img src={eminemLogo} alt="EMINEM SHOP" className="eminemLogo"/><Link to="/" className="eminemShop">EMINEM SHOP</Link>
+      <img src={eminemLogo} alt="EMINEM SHOP" className="eminemLogo"/><Link to="/" className="eminemShop"> EMINEM SHOP</Link>
       </Link>
 
       <nav className="navbar">

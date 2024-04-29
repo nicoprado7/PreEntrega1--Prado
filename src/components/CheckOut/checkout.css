@@ -3,7 +3,7 @@
     border-radius: 0.3rem;
     padding: 1rem;
     margin: 0.5rem;
-    background-color: rgba(138, 0, 0, 0.562);
+    background-color: rgba(185, 1, 1, 0.952);
     font-size: 30px;
 }
 
@@ -11,10 +11,11 @@
     border: 1px solid #343a40;
     border-radius: 0.3rem;
     margin: 0.5rem;
-    background-color: rgba(138, 0, 0, 0.877);
+    background-color: rgb(255, 238, 0);
     display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
+    justify-content: center;
+    align-items: center; 
+    color: black;
   }
   
   .formulario {

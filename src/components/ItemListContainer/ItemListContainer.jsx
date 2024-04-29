@@ -5,8 +5,6 @@ import './ItemListContainer.css';
 import { db } from "../../config/firebaseConfig"
 import { collection, getDocs, query, where } from "firebase/firestore";
 
-// Para insertar a la DB (Solo realizar una vez)
-// import { seedProducts } from "../../utils/seedProducts";
 export const ItemListContainer = ({ greeting }) => {
 
   const { category } = useParams()
@@ -35,16 +33,8 @@ export const ItemListContainer = ({ greeting }) => {
     setLoading(true)
     getProductsDB(category)
 
-    // ****************************************
-    //! Importante, para carga de productos
-    // 1) comentar las dos funciones de arriba
-    // 2) descomentar la de aqui abajo
-    // 3) descomentar el import de seedProducts linea 13 aqui
-    // seedProducts(); 
-    // ****************************************
+
   }, [category])
-  // spinner bootstrap from...
-  // https://getbootstrap.com/docs/4.2/components/spinners/
   return (
     <>
       {

@@ -16,7 +16,7 @@ Opté por realizar una App de un Ecommerce de ropa inspirada en el cantante Emin
 
 - Como herramienta de estilado utilicé CSS y librerías de estilos (Bootstrap) o de componentes (Material UI).
 
-- Implementé la conexión a un servicio en la nube (Firebase) que provee de una Base de Datos donde almacené el listado de los productos.
+- Implementé la conexión a un servicio en la nube (Firebase) que provee de una Base de Datos donde almacené el listado de los productos, en la cual tambien se guardan las orders, con los datos generados de la app.
 
 ## Tecnologías empleadas
 - React JS

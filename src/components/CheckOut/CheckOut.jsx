@@ -80,7 +80,6 @@ export const CheckOut = () => {
     return (
       <>
         <h3 className="check">¡Muchas gracias por su compra!😁 <br />Su ID de orden es...</h3>
-        <br />
         <h3 className="check1">{orderId}</h3>
         <Link to="/" className="eminemShop1">
           <button className='iralinicio'>Ir al inicio</button>
